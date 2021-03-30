@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Wifi-Culprit
+Exec=/usr/.culprit/main.sh
+Icon=/usr/.culprit/wifi.png
+Type=Application
+Terminal=false
