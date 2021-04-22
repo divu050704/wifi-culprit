@@ -1,7 +1,13 @@
-import os 
-ch = 'Y'
-while ch =='Y':
-	os.chdir('/usr/.culprit')
-	os.system('./nmap.sh')
-	ch = input('\033[0;31m\nDo you want to continue(Y/n):\t\033[34m')
-					
+file = open('/usr/.culprit/new.txt')
+main=file.read()
+words=main.split()
+final = len(words)
+file1 = open('/usr/.culprit/manuf.txt')
+main1 = file1.readlines()
+final1 = len(main1)
+for i in range(final):
+    for j in range(final1):
+        if words[i] in main1[j]:
+            print(main1[j])
+        
+

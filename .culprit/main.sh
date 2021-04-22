@@ -1,2 +1,3 @@
-gnome-terminal --maximize -- python3 /usr/.culprit/nmap.py
+#!/bin/bash
+konsole -e python3 /usr/.culprit/main.py
 
